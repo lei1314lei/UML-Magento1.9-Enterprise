@@ -1,1 +1,63 @@
-<mxfile host="www.draw.io" modified="2019-11-18T08:52:01.634Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" version="12.2.6" etag="4pmZOf1S_4x1LvFm0vuk" type="github"><diagram id="xiv5lZ6EZYsMXEVcd5HM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-18T09:26:02.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="Tbl7AGlC0atfrWK27heQ" version="12.2.6" type="github" pages="1">
+  <diagram id="xiv5lZ6EZYsMXEVcd5HM" name="Page-1">
+    <mxGraphModel dx="1024" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Track&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;trackNumber&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;carrierCode&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+getNumberDetail():&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="110" width="160" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Carrier&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getTrackingInfo($tracking):&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+getTracking($trackings) // seems to be sub function&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="320" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-3" value=":Track" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="100" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8lTFXND6N3UuoEIL1XuC-3">
+          <mxGeometry x="45" y="110" width="10" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-6" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;getNumberDetail()&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="8lTFXND6N3UuoEIL1XuC-5" parent="8lTFXND6N3UuoEIL1XuC-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="90" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="80" y="90"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-4" value=":Carrier" style="html=1;points=[];perimeter=orthogonalPerimeter;shape=umlLifeline;participant=label;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;recursiveResize=0;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="380" width="100" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8lTFXND6N3UuoEIL1XuC-4">
+          <mxGeometry x="45" y="135" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-8" value="&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;getTrackingInfo($&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;tracking&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.38;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="8lTFXND6N3UuoEIL1XuC-7" parent="1" source="8lTFXND6N3UuoEIL1XuC-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="520" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-9" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="8lTFXND6N3UuoEIL1XuC-7" parent="1" target="8lTFXND6N3UuoEIL1XuC-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="596" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-10" value="$trackingInfo&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="333" y="574" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="550" y="544" width="10" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-12" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;getTracking($tracking)&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="8lTFXND6N3UuoEIL1XuC-11" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="524" as="sourcePoint"/>
+            <Array as="points">
+              <mxPoint x="580" y="524"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8lTFXND6N3UuoEIL1XuC-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TrackingResult&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="100" width="160" height="90" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
